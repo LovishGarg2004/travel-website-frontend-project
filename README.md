@@ -45,9 +45,6 @@ travel-site/
 ## Contributing
 Contributions to the project are welcome. If you have suggestions for improvements or new features, feel free to submit a pull request.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
-
 ---
 
 Feel free to customize this README according to your project's specific details and requirements.

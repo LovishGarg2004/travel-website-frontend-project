@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Zorotin</title>
+</head>
+<body>
+    <header>
+        <div class="main_picture">
+            <div class="main_nav">
+                <div class="options ">
+                    <button class="btn">TOUR</button>
+                    <button class="btn">DOCUMENTS</button>
+                    <button class="btn">INSURANCE</button>
+                    <button class="btn">ABOUT US</button>
+                    <div class="togglebtn"  style="transform: skew(0deg);"><i class="fa-solid fa-bars" style="transform: skew(34deg);"></i></div>
+                </div>
+                <div class="Zorotin">
+                    <h4>ZOROTIN</h4>
+                </div>
+                <div class="other_options">
+                    <div class="country">
+                        <button class="dropbtn"><img src="https://imgs.search.brave.com/hctStCi7WqCnbDiSVqT_UH9C69_tGegZDJuQZV0J4mw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by91cy1mbGFnLXVz/YS1mbGFnXzEwNDMz/Ny05ODgyLmpwZz9z/aXplPTYyNiZleHQ9/anBn" alt="usa">USA<i class="fa-solid fa-angle-down icon"></i></button>
+                        <div class="dropdown-content" >
+                          <a href="#" class="choice"><img src="https://img.freepik.com/premium-photo/india-national-fabric-flag_113767-1933.jpg" alt="usa">India</a>
+                          <a href="#" class="choice"><img src="https://imgs.search.brave.com/hctStCi7WqCnbDiSVqT_UH9C69_tGegZDJuQZV0J4mw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by91cy1mbGFnLXVz/YS1mbGFnXzEwNDMz/Ny05ODgyLmpwZz9z/aXplPTYyNiZleHQ9/anBn" alt="usa">USD</a>
+                          <a href="#" class="choice"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASIAAACuCAMAAAClZfCTAAAAElBMVEUAAAD/zgDdAADnAADaAAD/2AAtsSEoAAAA+ElEQVR4nO3QMQGAMAAEsYeCf8tIuI0pkZANAAAAAAAAAAAAAAAAAAAAgB8dwm6CoqQoKUqKkqKkKClKipKipCgpSoqSoqQoKUqKkqKkKClKipKipCgpSoqSoqQoKUqKkqKkKClKipKipCgpSoqSoqQoKUqKkqKkKClKipKipCgpSoqSoqQoKUqKkqKkKClKewh7CbsIipKipCgpSoqSoqQoKUqKkqKkKClKipKipCgpSoqSoqQoKUqKkqKkKClKipKipCgpSoqSoqQoKUqKkqKkKClKipKipCgpSoqSoqQoKUqKkqKkKClKipKipCgpSoqSoqQoKUofMGTNC8HkSxoAAAAASUVORK5CYII=" alt="usa">Germany</a>
+                        </div>
+                    </div>
+                    <!-- <div class="country"> -->
+                        <!-- <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                        <ul class="dropdown-menu bs-dropdown-min-width-7">
+                        <li><a class="dropdown-item" href="#"><img src="https://imgs.search.brave.com/hctStCi7WqCnbDiSVqT_UH9C69_tGegZDJuQZV0J4mw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by91cy1mbGFnLXVz/YS1mbGFnXzEwNDMz/Ny05ODgyLmpwZz9z/aXplPTYyNiZleHQ9/anBn" alt="usa">USD</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="https://imgs.search.brave.com/hctStCi7WqCnbDiSVqT_UH9C69_tGegZDJuQZV0J4mw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by91cy1mbGFnLXVz/YS1mbGFnXzEwNDMz/Ny05ODgyLmpwZz9z/aXplPTYyNiZleHQ9/anBn" alt="usa">USD</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="https://imgs.search.brave.com/hctStCi7WqCnbDiSVqT_UH9C69_tGegZDJuQZV0J4mw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by91cy1mbGFnLXVz/YS1mbGFnXzEwNDMz/Ny05ODgyLmpwZz9z/aXplPTYyNiZleHQ9/anBn" alt="usa">USD</a></li>
+                        <li><a class="dropdown-item" href="#"><img src="https://imgs.search.brave.com/hctStCi7WqCnbDiSVqT_UH9C69_tGegZDJuQZV0J4mw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by91cy1mbGFnLXVz/YS1mbGFnXzEwNDMz/Ny05ODgyLmpwZz9z/aXplPTYyNiZleHQ9/anBn" alt="usa">USD</a></li>
+                      </ul> -->
+                    <!-- </div> -->
+                        <div class="cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                </div>
+            </div>
+            <div class="title_search">
+                <div class="title">
+                    <p>europe</p>
+                </div>
+                <div class="search_option">
+                    <h6 class="shadow-lg text-light">Find your destination</h6>
+                    <div class="input-group">
+                        <input type="text" id="searchBar" class="form-control" placeholder="Location, Address or destination" aria-label="Username" aria-describedby="basic-addon1">
+                        <button type="submit" class="btn btn-success arrow_btn"><i class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="nav_content">
+        <div class="nav_bar">
+            <div class="filters">
+                <h4>Filters</h4>
+                <div class="form-check form-check-inline radio">
+                    <input class="form-check-input countryFilter" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">France</label>
+                </div>
+                <div class="form-check form-check-inline radio">
+                    <input class="form-check-input countryFilter" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">England</label>
+                </div>
+                <div class="form-check form-check-inline radio">
+                    <input class="form-check-input countryFilter" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Germany</label>
+                </div>    
+                <input type="date" id="datePicker" value="2012-03-23">
+
+
+            </div>
+            <hr>
+            <div class="popular_filters" style="margin-left: 1rem;">
+                <h4>Popular Filters</h4>
+                <div class="form-check form-check-inline radio">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Free Ticket</label>
+                </div>
+                <div class="form-check form-check-inline radio">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Short Walk(&lt;250m)</label>
+                </div>
+                <div class="form-check form-check-inline radio" style="margin-bottom: 2rem;">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Ample Parking</label>
+                </div>
+            </div>
+            <hr>
+            <div class="star_ratings">
+                <h4>Star Ratings</h4>
+                <div class="form-check form-check-inline radio">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">5 Star</label>
+                </div>
+                <div class="form-check form-check-inline radio">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio2" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">4 Star</label>
+                </div>
+                <div class="form-check form-check-inline radio">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio3" value="option3">
+                    <label class="form-check-label" for="inlineRadio3">3 Star</label>
+                </div>
+                <div class="form-check form-check-inline radio">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio4" value="option3">
+                    <label class="form-check-label" for="inlineRadio4">2 Star</label>
+                </div>
+                <div class="form-check form-check-inline radio" style="margin-bottom: 2rem;">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio5" value="option3">
+                    <label class="form-check-label" for="inlineRadio5">1 Star</label>
+                </div>
+            </div>
+        </div>
+        <div class="content d-flex flex-wrap">
+                <!-- <div class="card w-25 m-3 border border-white" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/c8/45/de/c845de8eccc1e98fc5dc0576a136555f.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Parc Buttes-Chaumont</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            75016 Paris,France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.9 (1,390 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 379</span>/Person</p>
+                    </div>
+                </div>
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://static.toiimg.com/thumb/msid-92089121,width-748,height-499,resizemode=4,imgsize-139308/.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Verdon George France</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Provence-Alpes,France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.5 (3,494 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 276</span>/Person</p>
+                    </div>
+                </div>
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://img.veenaworld.com/wp-content/uploads/2023/06/Natures-Paradise-Discover-the-Best-Places-To-Visit-in-North-East-India.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Mont Saint-Michel</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Normadi,France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.9 (1,390 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 163</span>/Person</p>
+                    </div>
+                </div>
+            <div class="secondlayer d-flex justify-content-evenly">
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://img.veenaworld.com/wp-content/uploads/2023/09/Famous-Places-in-the-World-Checking-off-the-Ultimate-Bucket-List.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Le Jardin des Serres</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            75016 Paris,France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.9 (1.290 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 149</span>/Person</p>
+                    </div>
+                </div>
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Eiffel Tower Paris</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            5 Av. Anatole France, France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.9 (4.723 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 473</span>/Person</p>
+                    </div>
+                </div>
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://img.freepik.com/free-photo/magical-shot-dolomite-mountains-fanes-sennes-prags-national-park-italy-during-summer_181624-43445.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Porte de Clignancourt</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Paris lle-de-France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.7 (2.349 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 217</span>/Person</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="thirdlayer d-flex justify-content-evenly">
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/08/21104741/Tourist-Places-in-Kashmir-feature-compressed.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Parc Buttes-Chaumont</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            75016 Paris,France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.9 (1.390 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 379</span>/Person</p>
+                    </div>
+                </div>
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://www.shutterstock.com/image-photo/famous-golden-gate-bridge-san-600nw-118430506.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Verdon Gorge France</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Provence-Alpes,France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.5 (3.494 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 276</span>/Person</p>
+                    </div>
+                </div>
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/08/Temple-in-India_600.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Mont Saint-Michel</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Normadi, France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.9 (1.390 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 163</span>/Person</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="fourthlayer d-flex justify-content-evenly">
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://img.veenaworld.com/wp-content/uploads/2023/09/Famous-Places-in-the-World-Checking-off-the-Ultimate-Bucket-List.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Le Jardin des Serres</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            75016 Paris,France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.9 (1.290 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 149</span>/Person</p>
+                    </div>
+                </div>
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Eiffel Tower Paris</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            5 Av. Anatole France, France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.9 (4.723 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 473</span>/Person</p>
+                    </div>
+                </div>
+                <div class="card w-25 border border-white" style="width: 18rem;">
+                    <img src="https://img.freepik.com/free-photo/magical-shot-dolomite-mountains-fanes-sennes-prags-national-park-italy-during-summer_181624-43445.jpg" class="card-img-top rounded-4" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 fw-bold">Porte de Clignancourt</h5>
+                      <h6 class="card-subtitle mt-3 mb-2 text-body-secondary">
+                        <div class="location mb-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Paris lle-de-France
+                        </div>
+                        <div class="reviews">
+                            <i class="fa-regular fa-star"></i>
+                            4.7 (2.349 Reviews)
+                        </div>
+                      </h6>
+                      <p class="card-text"><span class="card-title fw-bold fs-4">$ 217</span>/Person</p>
+                    </div>
+                </div>
+
+
+            </div> -->
+        </div>
+    </div>
+    <div class="paging w-100 d-flex justify-content-center align-items-center"> 
+        <button class="left-arrow btn btn-outline-success rounded-circle fs-2 me-5" disabled style="transform: skew(0deg);"><i class="fa-solid fa-arrow-left"></i></button>
+        <a class="number fs-2 link-underline link-underline-opacity-0 btn btn-success rounded-circle me-5" style="transform: skew(0deg);color: rgba(0, 0, 0, 0.622);" id="1" style="color: rgba(0, 0, 0, 0.622);">1</a>
+        <a class="number fs-2 link-underline link-underline-opacity-0" id="2" style="color: rgba(0, 0, 0, 0.622);">2</a>
+        <a class="number fs-2 link-underline link-underline-opacity-0" id="3" style="color: rgba(0, 0, 0, 0.622);">3</a>
+        <a class="number fs-2 link-underline link-underline-opacity-0" id="4" style="color: rgba(0, 0, 0, 0.622);">4</a>
+        <button class="right-arrow btn btn-outline-success rounded-circle fs-2" style="transform: skew(0deg);"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+
+    <div class="blog p-5">
+        <h6 class="fs-3 ml-5" style="color: rgba(0, 0, 0, 0.623);">BLOG</h6>
+        <h4 class="">Although a picture describes a thousand words, some story and experiences are better described in detail.</h4>
+    </div>
+
+    <div class="first_footer d-flex justify-content-center mb-5">
+        <div class="cut-corners1 d-flex flex-column justify-content-end align-items-end me-4">
+            <div class="must_visit card me-4 mb-4 rounded-5">
+                <div class="card-body">
+                    <div class="card-title fs-1 fw-bolder mb-4">Must Visit Destination</div>
+                    <div class="card-subtitle fs-6 ">
+                        <p class="fs-5" style="color: rgba(0, 0, 0, 0.623);">Vivid Sydney is an annual festival of</p> 
+                        <p class="fs-5" style="color: rgba(0, 0, 0, 0.623);"    >light, music and ideas, held in</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-outline-success position-absolute end-50 me-2" style="transform: skew(0deg);"><i class="fa-solid fa-arrow-left fs-4"></i></button>
+        
+        <button class="btn btn-outline-success position-absolute start-50 ms-2" style="transform: skew(0deg);"><i class="fa-solid fa-arrow-right fs-4"></i></button>
+        <div class="cut-corners d-flex flex-column justify-content-end align-items-start ms-4">
+            <div class="must_visit card ms-4 mb-4 rounded-5">
+                <div class="card-body">
+                    <div class="card-title fs-1 fw-bolder mb-4">The Best of France</div>
+                    <div class="card-subtitle fs-6 ">
+                        <p class="fs-5" style="color: rgba(0, 0, 0, 0.623);">In the popular imagination, 'French'</p> 
+                        <p class="fs-5" style="color: rgba(0, 0, 0, 0.623);">is often used as a euphemism</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-light d-flex flex-column justify-content-between">
+        <div class="contact_details d-flex justify-content-around pt-5 ">
+            <div class="email mt-3">
+                <h4 class="fw-bold">SUBSCRIBE FOR FRESH</h4>
+                <h4 class="fw-bold">CONTENT & PRODUCT UPDATES</h4>
+                <div class="input-group mt-4 mb-3">
+                    <input type="text" class="form-control rounded-pill" style="background-color: rgb(23, 48, 23); color: white;" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <button class="btn btn-light rounded-pill" style="transform: skew(0deg);">Subscribe</button>
+                  
+            </div>
+            <div class="contact mt-3 d-flex justify-content-evenly">
+                <div class="tour me-5">
+                    <div class="card-title fs-4 fw-bolder mb-4">TOUR</div>
+                    <div class="card-subtle fs-5">
+                        <p>Australia Special</p>
+                        <p>Africa</p>
+                        <p>America</p>
+                        <p>Asia</p>
+                        <p>China</p>
+                        <p>Holiday</p>
+                    </div>
+                </div>
+                <div class="product me-5">
+                    <div class="card-title fs-4 fw-bolder mb-4">PRODUCT</div>
+                    <div class="card-subtle fs-5">
+                        <p>Package</p>
+                        <p>Cruise</p>
+                        <p>Car Hire</p>
+                        <p>Visa</p>
+                        <p>Passport</p>
+                        <p>Insurance</p>
+                        <p>Education</p>
+                    </div>
+                </div>
+                <div class="information me-5">
+                    <div class="card-title fs-4 fw-bolder mb-4">INFORMATION</div>
+                    <div class="card-subtle fs-5">
+                        <p>Offers</p>
+                        <p>About Us</p>
+                        <p>Blog</p>
+                        <p>Brochures</p>
+                        <p>Terms & Conditions</p>
+                        <p>F.A.Q</p>
+                        <p>Education</p>
+                    </div>
+                </div>
+                <div class="contact_us">
+                    <div class="card-title fs-4 fw-bolder mb-4">CONTACT US</div>
+                    <div class="card-subtle fs-5">
+                        <p><i class="fa-solid fa-phone"></i> 62-31339 7999</p>
+                        <p><i class="fa-solid fa-phone"></i> 62-31339 7999</p>
+                        <p><i class="fa-brands fa-whatsapp"></i> 62313394238</p>
+                        <p><i class="fa-solid fa-envelope"></i> zorotin@gmail.com</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-parent d-flex">
+            <div class="scroll-element primary d-flex align-items-end">
+                <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/08/21104741/Tourist-Places-in-Kashmir-feature-compressed.jpg" class="card-img-top rounded-4 image_1" alt="...">
+                <img src="https://www.shutterstock.com/image-photo/famous-golden-gate-bridge-san-600nw-118430506.jpg" class="card-img-top rounded-4 image_2" alt="...">
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/08/Temple-in-India_600.jpg" class="card-img-top rounded-4 image_1" alt="...">
+                <img src="https://img.veenaworld.com/wp-content/uploads/2023/09/Famous-Places-in-the-World-Checking-off-the-Ultimate-Bucket-List.jpg" class="card-img-top rounded-4 image_2" alt="...">
+                <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" class="card-img-top rounded-4 image_1" alt="...">
+                <img src="https://img.freepik.com/free-photo/magical-shot-dolomite-mountains-fanes-sennes-prags-national-park-italy-during-summer_181624-43445.jpg" class="card-img-top rounded-4 image_2" alt="...">
+            </div>
+            <div class="scroll-element secondary d-flex align-items-end">
+                <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/08/21104741/Tourist-Places-in-Kashmir-feature-compressed.jpg" class="card-img-top rounded-4 image_1" alt="...">
+                <img src="https://www.shutterstock.com/image-photo/famous-golden-gate-bridge-san-600nw-118430506.jpg" class="card-img-top rounded-4 image_2" alt="...">
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/08/Temple-in-India_600.jpg" class="card-img-top rounded-4 image_1" alt="...">
+                <img src="https://img.veenaworld.com/wp-content/uploads/2023/09/Famous-Places-in-the-World-Checking-off-the-Ultimate-Bucket-List.jpg" class="card-img-top rounded-4 image_2" alt="...">
+                <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" class="card-img-top rounded-4 image_1" alt="...">
+                <img src="https://img.freepik.com/free-photo/magical-shot-dolomite-mountains-fanes-sennes-prags-national-park-italy-during-summer_181624-43445.jpg" class="card-img-top rounded-4 image_2" alt="...">
+            </div>
+           </div>
+           
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
